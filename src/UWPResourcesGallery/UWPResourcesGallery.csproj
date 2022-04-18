@@ -171,6 +171,9 @@
     <Compile Include="Pages\StartPage.xaml.cs">
       <DependentUpon>StartPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WinUiBrushesPage.xaml.cs">
+      <DependentUpon>WinUiBrushesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\SystemBrushesPage.xaml.cs">
       <DependentUpon>SystemBrushesPage.xaml</DependentUpon>
     </Compile>
@@ -309,6 +312,10 @@
     <Page Include="Pages\StartPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WinUiBrushesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\SystemBrushesPage.xaml">
       <Generator>MSBuild:Compile</Generator>

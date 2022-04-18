@@ -124,6 +124,7 @@ namespace UWPResourcesGallery
             IconItemSource.LoadIconsList();
             SystemColorsItemSource.LoadSystemColors();
             SystemBrushItemSource.LoadSystemBrushes();
+            WinUIBrushItemSource.LoadSystemBrushes();
             UniversalPlatformVersionSource.LoadWindowsVersionContracts();
         }
 

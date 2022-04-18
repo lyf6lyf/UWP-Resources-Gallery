@@ -104,4 +104,9 @@ namespace UWPResourcesGallery.ResourceModel.Brushes
             );
         }
     }
+
+    public class WinUIBrush : SystemBrush
+    {
+        public WinUIBrush(string key, string name, string xamlDefinition) : base(key, name, xamlDefinition) { }
+    }
 }

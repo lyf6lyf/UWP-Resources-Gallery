@@ -92,6 +92,10 @@ namespace UWPResourcesGallery
             {
                 RootNavigation.SelectedItem = _SystemBrushesPage;
             }
+            else if (RootFrame.CurrentSourcePageType == typeof(WinUIBrushesPage))
+            {
+                RootNavigation.SelectedItem = _WinUIBrushesPage;
+            }
             else if (RootFrame.CurrentSourcePageType == typeof(AcrylicDesignerPage))
             {
                 RootNavigation.SelectedItem = _AcrylicBrushDesigner;
@@ -125,6 +129,10 @@ namespace UWPResourcesGallery
             else if ((string)args.InvokedItem == "Systembrushes")
             {
                 RootFrame.Navigate(typeof(SystemBrushesPage));
+            }
+            else if ((string)args.InvokedItem == "WinUI Brushes")
+            {
+                RootFrame.Navigate(typeof(WinUIBrushesPage));
             }
             else if ((string)args.InvokedItem == "AcrylicBrush designer")
             {
